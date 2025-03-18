@@ -1,9 +1,4 @@
-﻿// library.cpp : Source file for your target.
-//
-
-
-//#define _GNU_SOURCE
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdbool.h>
@@ -16,7 +11,6 @@
 #include <sys/signalfd.h>
 
 #include "library.h"
-
 
 #define ABSTRACT_SOCKET_NAME "\0epoll_unix_socket"
 
